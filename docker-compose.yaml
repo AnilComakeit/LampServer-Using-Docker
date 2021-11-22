@@ -24,7 +24,7 @@ services:
       PMA_USER: root
       PMA_PASSWORD: 123
     ports:
-      - "5000:80"
+      - "8089:80"
 
 volumes:
   mysql-data:
